@@ -1,8 +1,9 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo: 'Plan de producción y normatividad vigente',
+    descripcionCurso:
+      'La bioseguridad en acuicultura es fundamental para evitar la propagación de enfermedades que afectan la producción y calidad del producto. Las normativas y protocolos buscan proteger el medio ambiente, la salud humana y los organismos cultivados. La prevención, identificación y control de riesgos son esenciales para garantizar la sostenibilidad y rentabilidad en las explotaciones acuícolas.',
+    imagenBannerPrincipal: require('@/assets/curso/temas/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
