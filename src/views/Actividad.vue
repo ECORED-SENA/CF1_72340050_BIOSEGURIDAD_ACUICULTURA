@@ -9,296 +9,312 @@
   </template>
 
 <script>
+import Actividad from '@/components/actividad/Actividad.vue'
 export default {
   name: 'ActividadDidactica',
+  components: {
+    Actividad,
+  },
   data: () => ({
     cuestionario: {
-      tema: 'Nombre del componente formativo',
+      tema: 'Maquetación y narrativa en historietas gráficas',
       titulo: 'Cuestionario',
-      introduccion: '<b> Objetivo:</b> Texto de Word',
+      introduccion:
+        '<b> Objetivo:</b> Identificar la normativa y prácticas relacionadas con la bioseguridad en acuicultura, incluyendo la identificación de causas de enfermedades, medidas preventivas, normativas vigentes y la importancia de la seguridad laboral en este sector.',
       barajarPreguntas: true,
       preguntas: [
         {
           id: 1,
-          texto: '¿Cuál es la capital de Francia?',
+          texto:
+            '¿Cuál es el objetivo principal de la bioseguridad en acuicultura?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'París', esCorrecta: true },
-            { id: 'b', texto: 'Londres', esCorrecta: false },
-            { id: 'c', texto: 'Berlín', esCorrecta: false },
-            { id: 'd', texto: 'Madrid', esCorrecta: false },
+            {
+              id: 'a',
+              texto: 'Mejorar el sabor del producto final.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Aumentar la producción de alimentos para los consumidores.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Evitar la introducción, proliferación y propagación de patógenos en los cultivos.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Optimizar la calidad del agua utilizada en los cultivos.',
+              esCorrecta: false,
+            },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
           id: 2,
-          texto: '¿Cuál es el planeta más cercano al Sol?',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          texto:
+            '¿Cuál de las siguientes NO es una causa de enfermedades en la acuicultura?',
+          imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Venus', esCorrecta: false },
-            { id: 'b', texto: 'Mercurio', esCorrecta: true },
-            { id: 'c', texto: 'Tierra', esCorrecta: false },
-            { id: 'd', texto: 'Marte', esCorrecta: false },
+            {
+              id: 'a',
+              texto: 'Factores biológicos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Contaminación con plásticos.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Parámetros físico-químicos inadecuados.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Deficiencia nutricional.',
+              esCorrecta: false,
+            },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
           id: 3,
-          texto: "¿Quién escribió 'Cien años de soledad'?",
-          imagen: require('@/assets/actividad/imagen3.png'),
+          texto:
+            '¿Qué técnica ayuda a aumentar la rentabilidad de la acuicultura?',
+          imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Gabriel García Márquez', esCorrecta: true },
-            { id: 'b', texto: 'Mario Vargas Llosa', esCorrecta: false },
-            { id: 'c', texto: 'Jorge Luis Borges', esCorrecta: false },
-            { id: 'd', texto: 'Pablo Neruda', esCorrecta: false },
+            {
+              id: 'a',
+              texto: 'Reducción de la cantidad de agua utilizada.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Mejora genética y aumento de la densidad de siembra.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Disminución en el uso de alimentos balanceados.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Menor interacción con los organismos acuáticos.',
+              esCorrecta: false,
+            },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
           id: 4,
-          texto: '¿Cuál es el elemento químico con el símbolo H?',
-          imagen: require('@/assets/actividad/imagen4.png'),
+          texto:
+            '¿Cuál de las siguientes es una acción preventiva en la bioseguridad acuícola?',
+          imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Helio', esCorrecta: false },
-            { id: 'b', texto: 'Hidrógeno', esCorrecta: true },
-            { id: 'c', texto: 'Hierro', esCorrecta: false },
-            { id: 'd', texto: 'Hafnio', esCorrecta: false },
+            {
+              id: 'a',
+              texto:
+                'Realizar cuarentenas antes de ingresar animales al ciclo productivo.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Reducir la cantidad de alimentación diaria.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Incrementar la manipulación de los organismos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Utilizar un solo tipo de alimento balanceado.',
+              esCorrecta: false,
+            },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
           id: 5,
-          texto: '¿Cuál es el idioma más hablado del mundo?',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          texto: '¿Qué institución expidió la Resolución 2424 de 2009?',
+          imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Inglés', esCorrecta: false },
-            { id: 'b', texto: 'Español', esCorrecta: false },
-            { id: 'c', texto: 'Chino mandarín', esCorrecta: true },
-            { id: 'd', texto: 'Árabe', esCorrecta: false },
+            {
+              id: 'a',
+              texto: 'Ministerio de Ambiente.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Ministerio de Salud.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Ministerio de Agricultura.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Instituto Colombiano de Desarrollo Rural (INCODER).',
+              esCorrecta: true,
+            },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
           id: 6,
-          texto: '¿En qué año llegó el hombre a la Luna?',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          texto:
+            '¿Cuál de los siguientes elementos se utiliza para prevenir el escape de especies exóticas en acuicultura?',
+          imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: '1969', esCorrecta: true },
-            { id: 'b', texto: '1972', esCorrecta: false },
-            { id: 'c', texto: '1965', esCorrecta: false },
-            { id: 'd', texto: '1959', esCorrecta: false },
+            {
+              id: 'a',
+              texto: 'Aumentar la densidad de siembra en los estanques.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Instalar filtros o cajas de mallas en los tubos de drenaje.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Realizar más monitoreo visual de los estanques.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Disminuir el nivel de oxígeno en el agua.',
+              esCorrecta: false,
+            },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
           id: 7,
-          texto: '¿Qué río atraviesa la ciudad de Londres?',
+          texto:
+            '¿Cuál es una de las prácticas recomendadas para evitar la aparición de enfermedades en los peces?',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Río Támesis', esCorrecta: true },
-            { id: 'b', texto: 'Río Danubio', esCorrecta: false },
-            { id: 'c', texto: 'Río Sena', esCorrecta: false },
-            { id: 'd', texto: 'Río Rin', esCorrecta: false },
+            {
+              id: 'a',
+              texto:
+                'Mantener registros detallados de las actividades de campo.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Reducir la limpieza de los estanques.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Utilizar el mismo lote de alevinos en varias etapas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Evitar la cuarentena de los organismos.',
+              esCorrecta: false,
+            },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
           id: 8,
-          texto: '¿Quién pintó la Mona Lisa?',
-          imagen: require('@/assets/actividad/imagen4.png'),
+          texto:
+            '¿Cuál es uno de los beneficios de la bioseguridad en la acuicultura?',
+          imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Leonardo da Vinci', esCorrecta: true },
-            { id: 'b', texto: 'Pablo Picasso', esCorrecta: false },
-            { id: 'c', texto: 'Vincent van Gogh', esCorrecta: false },
-            { id: 'd', texto: 'Claude Monet', esCorrecta: false },
+            {
+              id: 'a',
+              texto:
+                'Disminuir la pérdida de animales acuáticos por enfermedades.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Aumentar el uso de pesticidas en el agua.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Eliminar la necesidad de monitorear los parámetros físico-químicos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Evitar el uso de alimentos balanceados comerciales.',
+              esCorrecta: false,
+            },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
           id: 9,
-          texto: '¿Cuál es el océano más grande del mundo?',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          texto:
+            'Las normativas de bioseguridad buscan proteger tanto al medio ambiente como a los productos acuícolas.',
+          imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Océano Atlántico', esCorrecta: false },
-            { id: 'b', texto: 'Océano Índico', esCorrecta: false },
-            { id: 'c', texto: 'Océano Pacífico', esCorrecta: true },
-            { id: 'd', texto: 'Océano Ártico', esCorrecta: false },
+            {
+              id: 'a',
+              texto: 'Verdadero.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Falso.',
+              esCorrecta: false,
+            },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
           id: 10,
-          texto: '¿Qué invento se le atribuye a Alexander Graham Bell?',
-          imagen: require('@/assets/actividad/imagen2.png'),
-          barajarRespuestas: true,
-          opciones: [
-            { id: 'a', texto: 'Teléfono', esCorrecta: true },
-            { id: 'b', texto: 'Telégrafo', esCorrecta: false },
-            { id: 'c', texto: 'Bombilla', esCorrecta: false },
-            { id: 'd', texto: 'Radio', esCorrecta: false },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 11,
-          texto: '¿Qué continente alberga la selva amazónica?',
-          imagen: require('@/assets/actividad/imagen3.png'),
-          barajarRespuestas: true,
-          opciones: [
-            { id: 'a', texto: 'África', esCorrecta: false },
-            { id: 'b', texto: 'Asia', esCorrecta: false },
-            { id: 'c', texto: 'América del Sur', esCorrecta: true },
-            { id: 'd', texto: 'Oceanía', esCorrecta: false },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 12,
-          texto: '¿Cuál es el animal más rápido del mundo?',
-          imagen: require('@/assets/actividad/imagen4.png'),
-          barajarRespuestas: true,
-          opciones: [
-            { id: 'a', texto: 'Tigre', esCorrecta: false },
-            { id: 'b', texto: 'León', esCorrecta: false },
-            { id: 'c', texto: 'Guepardo', esCorrecta: true },
-            { id: 'd', texto: 'Jaguar', esCorrecta: false },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 13,
           texto:
-            '¿Qué órgano es responsable de bombear la sangre en el cuerpo?',
-          imagen: require('@/assets/actividad/imagen1.png'),
-          barajarRespuestas: true,
-          opciones: [
-            { id: 'a', texto: 'Cerebro', esCorrecta: false },
-            { id: 'b', texto: 'Pulmones', esCorrecta: false },
-            { id: 'c', texto: 'Corazón', esCorrecta: true },
-            { id: 'd', texto: 'Hígado', esCorrecta: false },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 14,
-          texto: "¿Quién es el autor de 'Don Quijote de la Mancha'?",
-          imagen: require('@/assets/actividad/imagen2.png'),
-          barajarRespuestas: true,
-          opciones: [
-            { id: 'a', texto: 'Miguel de Cervantes', esCorrecta: true },
-            { id: 'b', texto: 'Federico García Lorca', esCorrecta: false },
-            { id: 'c', texto: 'Lope de Vega', esCorrecta: false },
-            { id: 'd', texto: 'Pedro Calderón de la Barca', esCorrecta: false },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 15,
-          texto: '¿Qué gas utilizan las plantas durante la fotosíntesis?',
-          imagen: require('@/assets/actividad/imagen3.png'),
-          barajarRespuestas: true,
-          opciones: [
-            { id: 'a', texto: 'Oxígeno', esCorrecta: false },
-            { id: 'b', texto: 'Dióxido de carbono', esCorrecta: true },
-            { id: 'c', texto: 'Nitrógeno', esCorrecta: false },
-            { id: 'd', texto: 'Hidrógeno', esCorrecta: false },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 16,
-          texto: '¿Quién fue el primer presidente de los Estados Unidos?',
+            'El cumplimiento de protocolos de bioseguridad en acuicultura no tiene relación con la salud pública.',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Thomas Jefferson', esCorrecta: false },
-            { id: 'b', texto: 'George Washington', esCorrecta: true },
-            { id: 'c', texto: 'Abraham Lincoln', esCorrecta: false },
-            { id: 'd', texto: 'John Adams', esCorrecta: false },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 17,
-          texto: '¿Qué país tiene el mayor número de habitantes?',
-          imagen: require('@/assets/actividad/imagen1.png'),
-          barajarRespuestas: true,
-          opciones: [
-            { id: 'a', texto: 'India', esCorrecta: false },
-            { id: 'b', texto: 'Estados Unidos', esCorrecta: false },
-            { id: 'c', texto: 'China', esCorrecta: true },
-            { id: 'd', texto: 'Rusia', esCorrecta: false },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 18,
-          texto: '¿Qué es el fenómeno de la refracción?',
-          imagen: require('@/assets/actividad/imagen2.png'),
-          barajarRespuestas: true,
-          opciones: [
-            { id: 'a', texto: 'La dispersión de la luz', esCorrecta: false },
+            {
+              id: 'a',
+              texto: 'Verdadero.',
+              esCorrecta: false,
+            },
             {
               id: 'b',
-              texto: 'El cambio de dirección de la luz',
+              texto: 'Falso.',
               esCorrecta: true,
             },
-            { id: 'c', texto: 'La absorción de la luz', esCorrecta: false },
-            { id: 'd', texto: 'La emisión de luz', esCorrecta: false },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 19,
-          texto: '¿Cuál es el símbolo químico del oro?',
-          imagen: require('@/assets/actividad/imagen3.png'),
-          barajarRespuestas: true,
-          opciones: [
-            { id: 'a', texto: 'Ag', esCorrecta: false },
-            { id: 'b', texto: 'Au', esCorrecta: true },
-            { id: 'c', texto: 'Fe', esCorrecta: false },
-            { id: 'd', texto: 'Cu', esCorrecta: false },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 20,
-          texto: '¿En qué año comenzó la Segunda Guerra Mundial?',
-          imagen: require('@/assets/actividad/imagen4.png'),
-          barajarRespuestas: true,
-          opciones: [
-            { id: 'a', texto: '1914', esCorrecta: false },
-            { id: 'b', texto: '1939', esCorrecta: true },
-            { id: 'c', texto: '1945', esCorrecta: false },
-            { id: 'd', texto: '1929', esCorrecta: false },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',

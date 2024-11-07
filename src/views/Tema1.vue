@@ -6,191 +6,207 @@
       .titulo-principal__numero
         span 1
       h1 Bioseguridad acuícola
-    .row.justify-content-center.mb-5.g-0
-      .col-lg-8.mb-lg-0.mb-3
-        .p-3(style="background-color: #CBE7F0 ").h-100.d-flex.align-items-center
-          .row.justify-content-center.align-items-center
-            .col-lg-2.d-lg-block.d-none: img(src='@/assets/curso/temas/4.svg', alt='' style="width: 80px ").m-auto
-            .col-lg-10: p.mb-0 La globalización y los #[b Tratados de Libre Comercio (TLC)] han impulsado el aumento del comercio internacional, y los productos acuícolas no han sido la excepción a esta tendencia. Las exportaciones e importaciones de dichos productos han generado nuevas exigencias para garantizar que no sean perjudiciales para el consumidor final.
-      .col-lg-4: img(src='@/assets/curso/temas/5.png', alt='')
-    .row.justify-content-center.mb-5
-      .col-lg-3.col-7: img(src='@/assets/curso/temas/6.png', alt='')
-      .col-lg-9
-        p.mb-3 Es responsabilidad de los productores ofrecer un producto inocuo, es decir, libre de patógenos o agentes físicos o químicos que puedan poner en peligro la salud del consumidor. Por tanto, la inocuidad es una cualidad fundamental en la calidad del producto. En todo el mundo, la inocuidad de los alimentos es una prioridad de salud pública, y para cumplir con este objetivo es necesario implementar un método que abarque desde la explotación acuícola hasta el consumidor final.
-        .p-4(style="background-color: #F9F2C8 ")
-          .row.justify-content-center.align-items-center
-            .col-lg-2.d-lg-block.d-none: img(src='@/assets/curso/temas/7.svg', alt='' style="width: 100px ").m-auto
-            .col-lg-10: p.mb-0 Es esencial identificar los peligros y aplicar controles en la explotación acuícola, conectando estos esfuerzos con los procesos posteriores, como la transformación, el transporte y la comercialización.
-    .row.justify-content-center.mb-5.g-0
-      .col-lg-8.mb-lg-0.mb-3
-        .p-4(style="background-color: #CBE7F0 ").h-100.d-flex.align-items-center
-            p.mb-0 Es crucial que el productor tome la iniciativa en cuanto a la bioseguridad acuícola en su proyecto, y que el Estado garantice el cumplimiento de las normativas vigentes para este tipo de explotaciones. Sin embargo, para lograr un ajuste óptimo, lo ideal sería una colaboración efectiva entre el productor y el ente regulador.
-      .col-lg-3: img(src='@/assets/curso/temas/8.svg', alt='')
-    .row.justify-content-center.align-items-center.mb-4
-      .col-lg-10.mb-lg-0
-        p.mb-0 Dentro de la explotación acuícola, la bioseguridad implica la identificación, priorización y ejecución de estrategias adecuadas para prevenir la entrada, proliferación y propagación de patógenos, tales como bacterias, virus y hongos. Los planes de bioseguridad deben estar documentados para asegurar una correcta comunicación y aplicación de los protocolos en la explotación acuícola.
-      .col-lg-2.col-4: img(src='@/assets/curso/temas/9.svg', alt='')
-    p.mb-5(data-aos='fade-right') Una correcta implementación de las medidas de bioseguridad en la explotación acuícola puede: 
+
+    
+    .row.justify-content-center.align-items-stretch.g-0.mb-5
+      .col-lg-8.bg-color-1(data-aos='fade-up')
+        .p-3
+          .row.justify-content-center.align-items-center.mt-lg-2
+            .col-lg-auto
+              img(src='@/assets/curso/temas/4.svg', alt='' style="width: 80px ").m-auto.d-none.d-lg-block
+            .col-lg
+              p.mb-0 La globalización y los #[b Tratados de Libre Comercio (TLC)] han impulsado el aumento del comercio internacional, y los productos acuícolas no han sido la excepción a esta tendencia. Las exportaciones e importaciones de dichos productos han generado nuevas exigencias para garantizar que no sean perjudiciales para el consumidor final.
+      .col-lg-4(data-aos='fade-right')
+        img(src='@/assets/curso/temas/5.png', alt='')
+
+    .bg-full-width.bg-fondo-1
+      .px-4.px-md-5
+        .row.justify-content-center.align-items-center.mb-5
+          .col-lg-3(data-aos='zoom-in')
+            img(src='@/assets/curso/temas/6.png', alt='').d-none.d-lg-block
+          .col-lg-9(data-aos='fade-left')
+            p.mb-3 Es responsabilidad de los productores ofrecer un producto #[b inocuo], es decir, #[b libre de patógenos o agentes físicos o químicos] que puedan poner en peligro la salud del consumidor. Por tanto, la inocuidad es una cualidad fundamental en la calidad del producto. En todo el mundo, la inocuidad de los alimentos es una prioridad de salud pública, y para cumplir con este objetivo es necesario implementar un método que abarque desde la explotación acuícola hasta el consumidor final.
+            .bg-color-2.py-3.px-4.brounded
+              .row.justify-content-center.align-items-center
+                .col-lg-auto.d-lg-block.d-none: img(src='@/assets/curso/temas/7.svg', alt='' style="width: 140px ").m-auto
+                .col-lg: p.mb-0 Es esencial identificar los peligros y aplicar controles en la explotación acuícola, conectando estos esfuerzos con los procesos posteriores, como la transformación, el transporte y la comercialización.
+
+
+        .row.justify-content-center.mb-5.g-0(data-aos='fade-up')
+          .col-lg-8
+            .p-4.bg-color-1.h-100.d-flex.align-items-center
+                p.mb-0 Es crucial que el productor tome la iniciativa en cuanto a la bioseguridad acuícola en su proyecto, y que el Estado garantice el cumplimiento de las normativas vigentes para este tipo de explotaciones. Sin embargo, para lograr un ajuste óptimo, lo ideal sería una colaboración efectiva entre el productor y el ente regulador.
+          .col-lg-3: img(src='@/assets/curso/temas/8.svg', alt='')
+
+
+        .row.justify-content-center.align-items-center.mb-4
+          .col-lg-10.mb-lg-0
+            p.mb-0 Dentro de la explotación acuícola, la bioseguridad implica la identificación, priorización y ejecución de estrategias adecuadas para prevenir la entrada, proliferación y propagación de patógenos, tales como #[strong bacterias, virus y hongos]. Los planes de bioseguridad deben estar documentados para asegurar una correcta comunicación y aplicación de los protocolos en la explotación acuícola.
+          .col-lg-2.col-4: img(src='@/assets/curso/temas/9.svg', alt='').mt-4.mt-lg-0
+
+
+        p.mb-5(data-aos='fade-right') Una correcta implementación de las medidas de bioseguridad en la explotación acuícola puede: 
+
     .row.justify-content-center.mb-3
       .col-lg-4.mb-lg-0.mb-3
-        .tarjeta(style="background-color: #98D1E2 ").overflow-hidden
-          .row.justify-content-center
-            .col-lg-4
-              .p-3(style="background-color:  #F0E077").h-100.d-flex.justify-content-center
-                .col-lg-12.col-2
-                  img(src='@/assets/curso/temas/10.svg', alt='').mb-0
-            .col-lg-8
-              .p-lg-1.p-4.d-flex.align-items-center.h-100
+        .bg-color-3.brounded-sm(data-aos='fade-right')
+          .row.justify-content-center.align-items-center.g-0
+            .col-auto
+              figure
+                img(src='@/assets/curso/tema1/3.svg', alt='').mb-0
+            .col
+              .p-3.ps-4
                 p.mb-0.fw-bold Fomentar la sanidad y reducir la pérdida de animales acuáticos.
+
       .col-lg-4.mb-lg-0.mb-3
-        .tarjeta(style="background-color: #98D1E2 ").overflow-hidden
-          .row.justify-content-center
-            .col-lg-4
-              .p-3(style="background-color:  #F0E077").h-100.d-flex.justify-content-center
-                .col-lg-12.col-2
-                  img(src='@/assets/curso/temas/11.svg', alt='').mb-0
-            .col-lg-8
-              .p-lg-1.p-4.d-flex.align-items-center.h-100
+        .bg-color-3.brounded-sm(data-aos='fade-right')
+          .row.justify-content-center.align-items-center.g-0
+            .col-auto
+              figure
+                img(src='@/assets/curso/tema1/4.svg', alt='').mb-0
+            .col
+              .p-3.ps-4
                 p.mb-0.fw-bold Proteger la inversión económica del productor.
+
       .col-lg-4.mb-lg-0.mb-3
-        .tarjeta(style="background-color: #98D1E2 ").overflow-hidden
-          .row.justify-content-center
-            .col-lg-4
-              .p-3(style="background-color:  #F0E077").h-100.d-flex.justify-content-center
-                .col-lg-12.col-2
-                  img(src='@/assets/curso/temas/12.svg', alt='').mb-0
-            .col-lg-8
-              .p-lg-1.p-4.d-flex.align-items-center.h-100
+        .bg-color-3.brounded-sm(data-aos='fade-right')
+          .row.justify-content-center.align-items-center.g-0
+            .col-auto
+              figure
+                img(src='@/assets/curso/tema1/5.svg', alt='').mb-0
+            .col
+              .p-3.ps-4
                 p.mb-0.fw-bold Incrementar el comercioy la exportación de productos acuáticos.
+
     .row.justify-content-center.mb-5
       .col-lg-4.mb-lg-0.mb-3
-        .tarjeta(style="background-color: #98D1E2 ").overflow-hidden
-          .row.justify-content-center
-            .col-lg-4
-              .p-3(style="background-color:  #F0E077").h-100.d-flex.justify-content-center
-                .col-lg-12.col-2
-                  img(src='@/assets/curso/temas/13.svg', alt='').mb-0
-            .col-lg-8
-              .p-lg-1.p-4.d-flex.align-items-center.h-100
+        .bg-color-3.brounded-sm(data-aos='fade-right')
+          .row.justify-content-center.align-items-center.g-0
+            .col-auto
+              figure
+                img(src='@/assets/curso/tema1/6.svg', alt='').mb-0
+            .col
+              .p-3.ps-4
                 p.mb-0.fw-bold Prevenir la introducción de patógenos nuevos y emergentes.
+
       .col-lg-4.mb-lg-0.mb-3
-        .tarjeta(style="background-color: #98D1E2 ").overflow-hidden
-          .row.justify-content-center
-            .col-lg-4
-              .p-3(style="background-color:  #F0E077").h-100.d-flex.justify-content-center
-                .col-lg-12.col-2
-                  img(src='@/assets/curso/temas/14.svg', alt='').mb-0
-            .col-lg-8
-              .p-lg-1.p-4.d-flex.align-items-center.h-100
+        .bg-color-3.brounded-sm(data-aos='fade-right')
+          .row.justify-content-center.align-items-center.g-0
+            .col-auto
+              figure
+                img(src='@/assets/curso/tema1/7.svg', alt='').mb-0
+            .col
+              .p-3.ps-4
                 p.mb-0.fw-bold Reducir el impacto potencial de enfermedades.
+
       .col-lg-4.mb-lg-0.mb-3
-        .tarjeta(style="background-color: #98D1E2 ").overflow-hidden
-          .row.justify-content-center
-            .col-lg-4
-              .p-3(style="background-color:  #F0E077").h-100.d-flex.justify-content-center
-                .col-lg-12.col-2
-                  img(src='@/assets/curso/temas/15.svg', alt='').mb-0
-            .col-lg-8
-              .p-lg-1.p-4.d-flex.align-items-center.h-100
+        .bg-color-3.brounded-sm(data-aos='fade-right')
+          .row.justify-content-center.align-items-center.g-0
+            .col-auto
+              figure
+                img(src='@/assets/curso/tema1/8.svg', alt='').mb-0
+            .col
+              .p-3.ps-4
                 p.mb-0.fw-bold Proteger la salud humana de enfermedades zoonóticas.
-    .row.justify-content-center.mb-5
+
+    .row.justify-content-center.mb-4
       .col-lg-10
-        p.mb-4 Las conductas, políticas y prácticas de bioseguridad abarcan tanto las que se aplican de manera rutinaria como aquellas obligatorias en caso de brotes de enfermedades. Un buen programa de bioseguridad debe: 
-    .row.justify-content-center.mb-5
-      .col-lg-4.col-7.mb-lg-0.mb-3: img(src='@/assets/curso/temas/16.png', alt='')
-      .col-lg-8 
-        .tarjeta.p-4(style="background-color: #FDECD4")
-          ul.lista-ul--color.lista-ul--separador
-            li 
-              i.fas.fa-check-circle(style="color: #00455A")
-              | Prevenir o mitigar los problemas y factores de riesgo de enfermedades antes de que ocurran.
-            li 
-              i.fas.fa-check-circle(style="color: #00455A")
-              | Detectar problemas si se presentan.
-            li 
-              i.fas.fa-check-circle(style="color: #00455A")
-              | Proveer los controles y medidas necesarias.
-            li 
-              i.fas.fa-check-circle(style="color: #00455A")
-              | Evaluar los resultados.
+        p.mb-4(data-aos='fade-right') Las conductas, políticas y prácticas de bioseguridad abarcan tanto las que se aplican de manera rutinaria como aquellas obligatorias en caso de brotes de enfermedades. Un buen programa de bioseguridad debe: 
+
+    .row.justify-content-center.mb-4
+      .col-lg-4(data-aos='fade-right')
+        img(src='@/assets/curso/temas/16.png', alt='').mx-auto.mb-4.mb-lg-0
+
+      .col-lg-6
+        .bg-color-4.brounded-sm(data-aos='fade-left')
+
+          .d-flex.align-items-center.py-3.px-4
+            i.fas.fa-check-circle.txt-color-1.me-3
+            p.mb-0 Prevenir o mitigar los problemas y factores de riesgo de enfermedades antes de que ocurren.
+
+          .border-bottom-dashed
+
+          .d-flex.align-items-center.py-3.px-4
+            i.fas.fa-check-circle.txt-color-1.me-3
+            p.mb-0 Detectar problemas si se presentan.
+
+          .border-bottom-dashed
+
+          .d-flex.align-items-center.py-3.px-4
+            i.fas.fa-check-circle.txt-color-1.me-3
+            p.mb-0 Proveer los controles y medidas necesarias.
+
+          .border-bottom-dashed
+
+          .d-flex.align-items-center.py-3.px-4
+            i.fas.fa-check-circle.txt-color-1.me-3
+            p.mb-0 Evaluar los resultados.
+
     Separador
+
     #t_1_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 1.1 La necesidad de la bioseguridad 
-    .row.justify-content-center.mb-5
+
+    .row.justify-content-center.mb-4
       .col-lg-7.mb-lg-0.mb-3
-        p.mb-4 La implementación de protocolos de bioseguridad es crucial para evitar pérdidas provocadas por enfermedades. Estas pérdidas pueden ser significativas, afectando directamente la explotación debido a la mortalidad de los animales o indirectamente, reflejándose en la disminución de la producción o en la pérdida de la reputación del negocio.  
-        .tarjeta.p-4(style="background-color: #F9F2C8 ")
+        p.mb-4 La implementación de protocolos de bioseguridad es crucial para evitar pérdidas provocadas por enfermedades. Estas pérdidas pueden ser significativas, afectando directamente la explotación debido a #[b la mortalidad de los animales] o indirectamente, reflejándose en la disminución de la producción o en la pérdida de la reputación del negocio.  
+        
+        .bg-color-2.brounded-sm(data-aos='fade-left').px-4.py-3
           .row.justify-content-center.align-items-center
-            .col-lg-2.d-lg-block.d-none: img(src='@/assets/curso/temas/17.svg', alt='' style="width: 100px ").m-auto
+            .col-lg-2.d-lg-block.d-none: img(src='@/assets/curso/temas/17.svg', alt='' style="width: 96px ").m-auto
             .col-lg-10: p.mb-0 Las enfermedades pueden aparecer de manera repentina y propagarse rápidamente. Con la globalizació y la expansión de los mercados internacionales, así como el transporte de reproductores o animales vivos, el riesgo de introducción de patógenos aumenta considerablemente.
-      .col-lg-5.col-7: img(src='@/assets/curso/temas/18.png', alt='')
+      .col-lg-5.col-7: img(src='@/assets/curso/temas/18.png', alt='').d-none.d-lg-block
+    
     p.mb-5(data-aos='fade-right') Factores claves en la bioseguridad acuícola: 
-    .row.justify-content-center.mb-5
-      .col-lg-3.mb-lg-0.mb-3
+
+    .row.justify-content-center.mb-4
+      .col-md-6.col-lg-3.mb-lg-0.mb-3
         .tarjeta--boton.color-secundario.p-4.h-100
-          .row.justify-content-center.mb-3
-            .col-6
-              figure
-                img(src='@/assets/curso/temas/19.svg', alt='Texto que describa la imagen')
-          p.text-small.text-center Inocuidad alimentaria
-      .col-lg-3.mb-lg-0.mb-3
+          img(src='@/assets/curso/temas/19.svg', alt='', style="width: 90px ").mx-auto.mb-3
+          p.mb-0.text-center Inocuidad alimentaria
+      .col-md-6.col-lg-3.mb-lg-0.mb-3
         .tarjeta--boton.color-secundario.p-4.h-100
-          .row.justify-content-center.mb-3
-            .col-6
-              figure
-                img(src='@/assets/curso/temas/20.svg', alt='Texto que describa la imagen')
-          p.text-small.text-center Protección ambiental
-      .col-lg-3.mb-lg-0.mb-3
+          img(src='@/assets/curso/temas/20.svg', alt='', style="width: 90px ").mx-auto.mb-3
+          p.mb-0.text-center Protección ambiental
+      .col-md-6.col-lg-3.mb-lg-0.mb-3
         .tarjeta--boton.color-secundario.p-4.h-100
-          .row.justify-content-center.mb-3
-            .col-6
-              figure
-                img(src='@/assets/curso/temas/21.svg', alt='Texto que describa la imagen')
-          p.text-small.text-center Posicionamiento y buena reputación de la empresa
-      .col-lg-3.mb-lg-0.mb-3
+          img(src='@/assets/curso/temas/21.svg', alt='', style="width: 90px ").mx-auto.mb-3
+          p.mb-0.text-center Posicionamiento y buena reputación de la empresa
+      .col-md-6.col-lg-3.mb-lg-0.mb-3
         .tarjeta--boton.color-secundario.p-4.h-100
-          .row.justify-content-center.mb-3
-            .col-6
-              figure
-                img(src='@/assets/curso/temas/22.svg', alt='Texto que describa la imagen')
-          p.text-small.text-center Mejoras en la productividad acuícola
+          img(src='@/assets/curso/temas/22.svg', alt='', style="width: 90px ").mx-auto.mb-3
+          p.mb-0.text-center Mejoras en la productividad acuícola
+
     Separador
+
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 1.2 Origen de las enfermedades 
+
     p.mb-5(data-aos='fade-right') Las enfermedades en la producción de peces pueden originarse por diversas causas, entre las que se destacan: 
-    .row.justify-content-center.mb-5
-      .col-lg-3.mb-lg-0.mb-3
+    
+    .row.justify-content-center.mb-4
+      .col-md-6.col-lg-3.mb-lg-0.mb-3
         .tarjeta--boton.color-secundario.p-4.h-100
-          .row.justify-content-center.mb-3
-            .col-12
-              figure
-                img(src='@/assets/curso/temas/23.png', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/temas/23.png', alt='').mx-auto.mb-4
           h4.text-center Biológicas
-          p.text-small.text-center Virus, bacterias, hongos y parásitos.
-      .col-lg-3.mb-lg-0.mb-3
+          p.mb-0.text-center Virus, bacterias, hongos y parásitos.
+
+      .col-md-6.col-lg-3.mb-lg-0.mb-3
         .tarjeta--boton.color-secundario.p-4.h-100
-          .row.justify-content-center.mb-3
-            .col-12
-              figure
-                img(src='@/assets/curso/temas/24.png', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/temas/24.png', alt='').mx-auto.mb-4
           h4.text-center Físico-químicas
-          p.text-small.text-center Desajustes en los parámetros ambientales, como temperatura, nivel de oxígeno disuelto, pH, concentración de sólidos suspendidos, concentración de compuestos nitrogenados, entre otros.
-      .col-lg-3.mb-lg-0.mb-3
+          p.mb-0.text-center Desajustes en los parámetros ambientales, como temperatura, nivel de oxígeno disuelto, pH, concentración de sólidos suspendidos, concentración de compuestos nitrogenados, entre otros.
+      .col-md-6.col-lg-3.mb-lg-0.mb-3
         .tarjeta--boton.color-secundario.p-4.h-100
-          .row.justify-content-center.mb-3
-            .col-12
-              figure
-                img(src='@/assets/curso/temas/25.png', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/temas/25.png', alt='').mx-auto.mb-4
           h4.text-center Nutricionales
-          p.text-small.text-center Subalimentación por cantidad o calidad, así como toxicidad generada por un manejo inadecuado de los alimentos.
-      .col-lg-3.mb-lg-0.mb-3
+          p.mb-0.text-center Subalimentación por cantidad o calidad, así como toxicidad generada por un manejo inadecuado de los alimentos.
+      .col-md-6.col-lg-3.mb-lg-0.mb-3
         .tarjeta--boton.color-secundario.p-4.h-100
-          .row.justify-content-center.mb-3
-            .col-12
-              figure
-                img(src='@/assets/curso/temas/26.png', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/temas/26.png', alt='').mx-auto.mb-4
           h4.text-center Denso-dependientes
-          p.text-small.text-center Densidades de cultivo inadecuadas.
+          p.mb-0.text-center Densidades de cultivo inadecuadas.
+
     Separador
     #t_1_3.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 1.3 Posibles causas de las enfermedades 
@@ -225,29 +241,29 @@
             td Responde a los ruidos y estímulos.
             td No responde a los ruidos cuando se acerca alguien al estanque.
           tr
-            td 
-            td 
-            td 
+            td Coloración
+            td Pigmentación definida de acuerdo con la especie.
+            td Colores claros en caso de anemias, falta de oxígeno y oscurecimiento en algunas enfermedades infecciosas. Petequias (puntos hemorrágicos).
           tr
-            td 
-            td 
-            td 
+            td Piel
+            td Suave, sin descamación ni hematomas, con secreción de mucus.
+            td Descamaciones evidentes; úlceras o hematomas con hipersecreción de mucus.
           tr
-            td 
-            td 
-            td 
+            td Ojos
+            td Brillantes con córnea transparente.
+            td Opacos.
           tr
-            td 
-            td 
-            td 
+            td Branquias
+            td Con una coloración rojo brillante y con láminas completas.
+            td Coloración anormal (rosa pálido, cianótica, hemorrágicas, etc.), con láminas discontinuas ("deshilachadas") con lesiones, o con presencia evidente de parásitos.
           tr
-            td 
-            td 
-            td 
+            td Aletas
+            td Íntegras, sin hemorragias subcutáneas, ni presencia de parásitos.
+            td Con heridas y lesiones aparentes, con presencia de parásitos adheridos.
           tr
-            td 
-            td 
-            td 
+            td Ano y papilas genitales
+            td No deben presentar hemorragias ni estar congestionadas.
+            td Salientes con signos de hemorragias.
             
       
 </template>
