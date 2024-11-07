@@ -156,25 +156,25 @@
             i.fas.fa-check-circle.txt-color-1.me-3
             p.mb-0 ¿Los alevinos o reproductores adquiridos cuentan con registro sanitario?
 
-          .border-bottom-dashed
+          .border-bottom-dashed-custom
 
           .d-flex.align-items-center.py-3.px-4
             i.fas.fa-check-circle.txt-color-1.me-3
             p.mb-0 ¿Se realiza cuarentena a los organismos antes de introducirlos al ciclo productivo?
 
-          .border-bottom-dashed
+          .border-bottom-dashed-custom
 
           .d-flex.align-items-center.py-3.px-4
             i.fas.fa-check-circle.txt-color-1.me-3
             p.mb-0 ¿Cuál es el protocolo a seguir al detectar animales muertos o enfermos?
 
-          .border-bottom-dashed
+          .border-bottom-dashed-custom
 
           .d-flex.align-items-center.py-3.px-4
             i.fas.fa-check-circle.txt-color-1.me-3
             p.mb-0 ¿Cómo se lleva acabo la limpieza y desinfección en los estanques y en toda la explotación?
 
-          .border-bottom-dashed
+          .border-bottom-dashed-custom
 
           .d-flex.align-items-center.py-3.px-4
             i.fas.fa-check-circle.txt-color-1.me-3

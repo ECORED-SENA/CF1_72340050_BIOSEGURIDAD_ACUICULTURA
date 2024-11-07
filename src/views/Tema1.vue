@@ -124,19 +124,19 @@
             i.fas.fa-check-circle.txt-color-1.me-3
             p.mb-0 Prevenir o mitigar los problemas y factores de riesgo de enfermedades antes de que ocurren.
 
-          .border-bottom-dashed
+          .border-bottom-dashed-custom
 
           .d-flex.align-items-center.py-3.px-4
             i.fas.fa-check-circle.txt-color-1.me-3
             p.mb-0 Detectar problemas si se presentan.
 
-          .border-bottom-dashed
+          .border-bottom-dashed-custom
 
           .d-flex.align-items-center.py-3.px-4
             i.fas.fa-check-circle.txt-color-1.me-3
             p.mb-0 Proveer los controles y medidas necesarias.
 
-          .border-bottom-dashed
+          .border-bottom-dashed-custom
 
           .d-flex.align-items-center.py-3.px-4
             i.fas.fa-check-circle.txt-color-1.me-3
