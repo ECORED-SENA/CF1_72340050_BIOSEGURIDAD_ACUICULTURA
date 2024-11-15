@@ -122,7 +122,7 @@
 
           .d-flex.align-items-center.py-3.px-4
             i.fas.fa-check-circle.txt-color-1.me-3
-            p.mb-0 Prevenir o mitigar los problemas y factores de riesgo de enfermedades antes de que ocurren.
+            p.mb-0 Prevenir o mitigar los problemas y factores de riesgo de enfermedades antes de que ocurran.
 
           .border-bottom-dashed-custom
 
@@ -153,8 +153,8 @@
         
         .bg-color-2.brounded-sm(data-aos='fade-left').px-4.py-3
           .row.justify-content-center.align-items-center
-            .col-lg-2.d-lg-block.d-none: img(src='@/assets/curso/temas/17.svg', alt='' style="width: 96px ").m-auto
-            .col-lg-10: p.mb-0 Las enfermedades pueden aparecer de manera repentina y propagarse rápidamente. Con la globalizació y la expansión de los mercados internacionales, así como el transporte de reproductores o animales vivos, el riesgo de introducción de patógenos aumenta considerablemente.
+            .col-lg-2.d-lg-block.d-none: img(src='@/assets/curso/temas/17.png', alt='' style="width: 96px ").m-auto
+            .col-lg-10: p.mb-0 Las enfermedades pueden aparecer de manera repentina y propagarse rápidamente. Con la globalización y la expansión de los mercados internacionales, así como el transporte de reproductores o animales vivos, el riesgo de introducción de patógenos aumenta considerablemente.
       .col-lg-5.col-7: img(src='@/assets/curso/temas/18.png', alt='').d-none.d-lg-block
     
     p.mb-5(data-aos='fade-right') Factores claves en la bioseguridad acuícola: 
@@ -218,7 +218,7 @@
         p.mb-0 En las explotaciones acuícolas, las enfermedades pueden ser ocasionadas por diversas variables, tales como factores medioambientales, malas prácticas de manejo, la presencia de organismos patógenos y una alimentación inadecuada tanto en cantidad como en calidad. En los ambientes acuáticos, los organismos conviven de manera equilibrada con diversos virus, bacterias y hongos, los cuales, en condiciones normales, no causan daño al pez (huésped). Cuando se le brindan al animal las condiciones óptimas para su desarrollo, este equilibrio entre el pez y los patógenos se mantiene, evitando el surgimiento de enfermedades. Proveer condiciones adecuadas en el cultivo es una responsabilidad clave del acuicultor para garantizar el bienestar de los organismos. 
     .titulo-sexto.color-acento-contenido(data-aos='fade-right')
       h5 Tabla 1.
-      span Cuadro comparativo características de los peces
+      span Cuadro comparativo sobre las características de los peces
     .tabla-a.color-acento-contenido.mb-5
       table
         thead(style="background-color: #F9F7F4 ")
@@ -235,7 +235,7 @@
           tr
             td Consumo de alimento
             td Voracidad característica de la especie. Sea en superficie o en fondo, con actividad estimulada en los horarios de rutina de alimentación.
-            td o consume alimento o queda volumen importante de alimento no consumido.
+            td No consume alimento o queda volumen importante de alimento no consumido.
           tr
             td Reacción de fuga
             td Responde a los ruidos y estímulos.
@@ -246,8 +246,8 @@
             td Colores claros en caso de anemias, falta de oxígeno y oscurecimiento en algunas enfermedades infecciosas. Petequias (puntos hemorrágicos).
           tr
             td Piel
-            td Suave, sin descamación ni hematomas, con secreción de mucus.
-            td Descamaciones evidentes; úlceras o hematomas con hipersecreción de mucus.
+            td Suave, sin descamación ni hematomas, con secreción de #[em mucus].
+            td Descamaciones evidentes; úlceras o hematomas con hipersecreción de #[em mucus].
           tr
             td Ojos
             td Brillantes con córnea transparente.

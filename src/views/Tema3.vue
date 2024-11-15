@@ -25,19 +25,19 @@
       .col-lg-10
         .bg-color-6.border-celda(data-aos='fade-right')
           .row.g-0.align-items-stretch
-            .col-4.p-3.border-celda
+            .col-5.col-lg-4.p-3.border-celda
               p.mb-0 #[strong Instalación de filtros o cajas de mallas]
             .col.p-3.border-celda 
               p.mb-0 Filtros de sarda, plástico, nylon, metal u otro material en las salidas de los tubos de drenaje o rebosaderos de áreas de producción de semilla.
 
           .row.g-0.align-items-stretch
-            .col-4.p-3.border-celda
+            .col-5.col-lg-4.p-3.border-celda
               p.mb-0 #[strong Aplicación en áreas clave]
             .col.p-3.border-celda.h-100
               p.mb-0 Implementación en salas de incubación, larvicultura, alevinaje, bodegas de cuarentena, estanques de engorde o mantenimiento de reproductores, lagunas de oxidación y sedimentación.
 
           .row.g-0.align-items-stretch
-            .col-4.p-3.border-celda
+            .col-5.col-lg-4.p-3.border-celda
               p.mb-0 #[strong Especificación del tamaño de malla]
             .col.p-3.border-celda
               p.mb-0 El ojo de la malla debe ser dos veces inferior a la altura máxima de los especímenes, según su fase de desarrollo.
@@ -97,7 +97,7 @@
                     img(src='@/assets/curso/tema3/9.svg', alt='').mb-0
                 .col
                   .p-3.ps-4
-                    p.mb-0 #[strong Identificacón, análisis y evaluación] de riesgos en las áreas de trabajo.
+                    p.mb-0 #[strong Identificación, análisis y evaluación] de riesgos en las áreas de trabajo.
 
             .bg-color-4.brounded-sm(data-aos='fade-right').mb-3
               .row.justify-content-center.align-items-center.g-0

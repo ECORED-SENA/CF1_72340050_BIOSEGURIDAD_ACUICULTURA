@@ -116,7 +116,7 @@ export default {
       referencia:
         'TvAgro. (2019). <em>La Bioseguridad en las Especies Acuícolas - TvAgro por Juan Gonzalo Angel</em>. [Archivo de video] YouTube.',
       tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=fi1OjszXfK0',
+      link: 'https://www.youtube.com/watch?v=fi1OjszXMK0',
     },
     {
       tema: 'La necesidad de la bioseguridad',

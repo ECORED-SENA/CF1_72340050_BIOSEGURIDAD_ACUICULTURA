@@ -56,7 +56,7 @@
                   img(src='@/assets/curso/temas/33.png', style="max-width: 220px", alt='').mx-auto.mb-4
                   .bg-color-5.d-inline-block.px-2.py-1.mb-3
                     h5.text-center.mb-0.text-color-black #[strong Tipo de producción]
-                  p.text-center Extensiva, semi-intensiva, intensiva, superintensiva.
+                  p.text-center Extensiva, semi-intensiva, intensiva y superintensiva.
 
                 .tarjeta.bg-color-white.p-4.border-gray.text-center
                   img(src='@/assets/curso/temas/34.png', style="max-width: 220px", alt='').mx-auto.mb-4
