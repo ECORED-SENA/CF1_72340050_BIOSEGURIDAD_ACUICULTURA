@@ -130,7 +130,7 @@ export default {
       referencia:
         'La Finca de Hoy. (2021). <em>Conozca las cinco enfermedades más comunes en la explotación de tilapia - La Finca de Hoy</em>. [Archivo de video] YouTube.',
       tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=lEbl4wX7pwo',
+      link: 'https://www.youtube.com/watch?v=iEbi4wX7pwo',
     },
     {
       tema: 'Posibles causas de las enfermedades',
@@ -138,7 +138,7 @@ export default {
         'Yanong, R. P. E., Francis-Floyd, R., y Petty, B. D. (2021). <em>Enfermedades infecciosas en acuicultura</em>.',
       tipo: 'Documento',
       link:
-        'https://www.medvetmanual.com/es/animales-exoticos/peces-y-de-laboratorio/acuicultura-enfermedades-infecciosas-en-acuicultura',
+        'https://www.msdvetmanual.com/es/animales-ex%C3%B3ticos-y-de-laboratorio/acuicultura/enfermedades-infecciosas-en-acuicultura',
     },
     {
       tema: 'Métodos de intervención en caso de aparición de enfermedades',
