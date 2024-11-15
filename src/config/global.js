@@ -123,7 +123,7 @@ export default {
       referencia:
         'TvAgro. (2021). <em>Como es un proyecto acuícola bioseguro y rentable - TvAgro por Juan Gonzalo Angel Restrepo</em>. [Archivo de video] YouTube.',
       tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=6IgoLJgwz5A',
+      link: 'https://www.youtube.com/watch?v=6lgoLJgwz5A',
     },
     {
       tema: 'Origen de las enfermedades',
