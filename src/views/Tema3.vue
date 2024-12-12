@@ -52,13 +52,13 @@
               img(src='@/assets/curso/tema3/4.svg', alt='', style="width: 100px ").mx-auto.mb-3
               .row.justify-content-center.align-items-center
                 .col-lg-10
-                  p.mb-0.text-center #[strong Prácticas sostenibles] que eviten la introducción de especies invasoras.
+                  p.mb-0.text-center #[strong Prácticas sostenibles:] que eviten la introducción de especies invasoras.
           .col-md-6.mb-lg-0.mb-3(data-aos='fade-right')
             .tarjeta--boton.bg-color-5.p-4.h-100
               img(src='@/assets/curso/tema3/5.svg', alt='', style="width: 100px ").mx-auto.mb-3
               .row.justify-content-center.align-items-center
                 .col-lg-10
-                  p.mb-0.text-center #[strong Fortalecimiento de las regulaciones] en el manejo de especies exóticas en sistemas acuícolas.
+                  p.mb-0.text-center #[strong Fortalecimiento de las regulaciones:] en el manejo de especies exóticas en sistemas acuícolas.
 
         .bg-color-2.px-4.py-3.brounded(data-aos='fade-left')
           .row.justify-content-center.align-items-center
@@ -97,7 +97,7 @@
                     img(src='@/assets/curso/tema3/9.svg', alt='').mb-0
                 .col
                   .p-3.ps-4
-                    p.mb-0 #[strong Identificación, análisis y evaluación] de riesgos en las áreas de trabajo.
+                    p.mb-0 #[strong Identificación, análisis y evaluación:] de riesgos en las áreas de trabajo.
 
             .bg-color-4.brounded-sm(data-aos='fade-right').mb-3
               .row.justify-content-center.align-items-center.g-0
@@ -106,7 +106,7 @@
                     img(src='@/assets/curso/tema3/10.svg', alt='').mb-0
                 .col
                   .p-3.ps-4
-                    p.mb-0 #[strong Implementación de medidas preventivas] cuando no sea posible eliminar los riesgos, enfocadas en minimizar su impacto.
+                    p.mb-0 #[strong Implementación de medidas preventivas:] cuando no sea posible eliminar los riesgos, enfocadas en minimizar su impacto.
             
             .bg-color-4.brounded-sm(data-aos='fade-right').mb-3
               .row.justify-content-center.align-items-center.g-0
@@ -115,7 +115,7 @@
                     img(src='@/assets/curso/tema3/11.svg', alt='').mb-0
                 .col
                   .p-3.ps-4
-                    p.mb-0 #[strong Identificación de puntos críticos] de riesgo en las zonas de trabajo, siguiendo las normativas vigentes en salud ocupacional.
+                    p.mb-0 #[strong Identificación de puntos críticos:] de riesgo en las zonas de trabajo, siguiendo las normativas vigentes en salud ocupacional.
 
         p.mb-0(data-aos='fade-right') Con estas normativas, las empresas acuícolas deben priorizar la seguridad en sus operaciones, protegiendo tanto a sus empleados como a los organismos con los que trabajan.
 </template>

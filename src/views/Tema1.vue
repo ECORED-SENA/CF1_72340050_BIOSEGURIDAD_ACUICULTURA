@@ -76,7 +76,7 @@
                 img(src='@/assets/curso/tema1/5.svg', alt='').mb-0
             .col
               .p-3.ps-4
-                p.mb-0.fw-bold Incrementar el comercioy la exportación de productos acuáticos.
+                p.mb-0.fw-bold Incrementar el comercio y la exportación de productos acuáticos.
 
     .row.justify-content-center.mb-5
       .col-lg-4.mb-lg-0.mb-3
